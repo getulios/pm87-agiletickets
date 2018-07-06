@@ -15,7 +15,10 @@ public class EstabelecimentoTest {
 	private static WebDriver browser;
 	private EstabelecimentosPage estabelecimentos;
 
+	// roda para a classe
 	@BeforeClass
+	// roda por teste
+	//@Before
 	public static void abreBrowser() {
 		System.setProperty("webdriver.gecko.driver", "geckodriver");
 		browser = new FirefoxDriver();
